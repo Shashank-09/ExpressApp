@@ -9,3 +9,7 @@ const anotherfun = function two(){
 }
 two()
 
+const three = function two(){
+    console.log(this);   
+}
+ three()
